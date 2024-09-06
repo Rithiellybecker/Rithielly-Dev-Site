@@ -1,0 +1,71 @@
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    /*alinha o conteudo no centro da tela  */
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    padding: 10px;
+}
+
+header li {
+    display: inline;
+    margin-left: 8px;
+}
+
+header li a {
+    color: inherit;
+}
+
+/* header{
+    background-color: brown;
+} */
+
+#sobre,
+#projeto,
+#contato {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    /* text-align: center; Centraliza o texto */
+    /* arrumar de acordo com a necessidade de cada seção */
+}
+
+
+footer>.container {
+    background-color: brown;
+    padding: 8px;
+}
+
+.container-botao {
+    max-width: 360px;
+    width: 100%;
+}
+  
+
+.btn-full-width {
+    max-width: 360px;
+    width: 100%;
+    /* O botão ocupará 100% da largura do container */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
